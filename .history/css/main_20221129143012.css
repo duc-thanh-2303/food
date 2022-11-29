@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFF6ED;
+    --yellow: #FF8803;
+    --orance: #F76E00;
+    --red: #C91605;
+}
+
+body {
+    background-color: var(--white);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.header__img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__menu p {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header__menu button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--orance);
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.header__menu button:hover {
+    background-color: white;
+    color: var(--orance);
+    border: solid 1px var(--orance);
+}

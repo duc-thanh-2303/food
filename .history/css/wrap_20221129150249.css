@@ -1,0 +1,11 @@
+#wrap-content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

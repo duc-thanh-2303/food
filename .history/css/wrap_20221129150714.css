@@ -1,0 +1,19 @@
+#wrap-content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.title__img {
+    width: 650px;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+}

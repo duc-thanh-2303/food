@@ -1,0 +1,53 @@
+:root {
+    --white: #FFF6ED;
+    --yellow: #FF8803;
+    --orance: #F76E00;
+    --red: #C91605;
+}
+
+#wrap-content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.title__img {
+    width: 650px;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.title__name {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.title__name-first,
+.title__name-second {
+    font-size: 50px;
+}
+
+.title__name > span {
+    font-size: 15px;
+}
+
+.title__name-btn {
+    margin-top: 10px;
+    background-color: var(--orance);
+    color: black;
+    border: none;
+    width: 110px;
+    height: 30px;
+    font-weight: bold;
+
+}

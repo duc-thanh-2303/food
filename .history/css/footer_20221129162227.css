@@ -1,0 +1,13 @@
+:root {
+    --white: #FFF6ED;
+    --yellow: #FF8803;
+    --orance: #F76E00;
+    --red: #C91605;
+    --bg: #E9DBC7;
+}
+
+#footer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

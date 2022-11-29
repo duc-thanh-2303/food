@@ -1,0 +1,147 @@
+:root {
+    --white: #FFF6ED;
+    --yellow: #FF8803;
+    --orance: #F76E00;
+    --red: #C91605;
+    --bg: #E9DBC7;
+}
+
+#wrap-content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.title__img {
+    width: 650px;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.title__name {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.title__name-first,
+.title__name-second {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title__name-second {
+    color: var(--red);
+}
+
+.title__name > span {
+    font-size: 15px;
+}
+
+.title__name-btn {
+    margin-top: 10px;
+    background-color: var(--orance);
+    color: black;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.title__name-btn:hover {
+    border-radius: 10px;
+    background-color: var(--white);
+    border: solid 2px var(--orance);
+    color: var(--orance);
+}
+
+.menu {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.menu__title {
+    color: var(--red);
+    font-size: 50px;
+    margin: 0 0 0 0;
+}
+
+.menu__section {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__section__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    background-color: var(--bg);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin: 90px 20px 0 20px ;
+}
+
+.menu__section__box__img {
+    width: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+h3 {
+    color: var(--red);
+    font-size: 20px;
+}
+
+.combo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.combo__title,
+.combo__infor {
+    color: var(--red);
+}
+
+.combo__img {
+    width: 600px;
+    object-fit: cover;
+    object-position: center;
+    margin: 50px 0 0 0;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.customer__img {
+    width: 150px;
+}

@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFF6ED;
+    --yellow: #FF8803;
+    --orance: #F76E00;
+    --red: #C91605;
+}
